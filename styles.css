@@ -18,7 +18,11 @@ body{
     font-size: 2.5rem;
     font-family: 'Poppins', sans-serif;
 }
-.fixed-bottom{
+.custom-flex{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
     justify-content: flex-end;
     padding-right: 3rem;
 }
@@ -51,8 +55,14 @@ body{
     .desc{
         text-align: center;
     }
-    .fixed-bottom{
+    .custom-flex{
         justify-content: center;
         padding: 0;
+    }
+}
+
+@media (max-height: 740px){
+    .custom-flex{
+    position: inherit;
     }
 }
