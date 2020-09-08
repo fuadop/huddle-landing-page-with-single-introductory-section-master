@@ -35,7 +35,7 @@ body{
 .btn-custom{
     border-radius: 30px !important;
     box-shadow: 4px 4px 4px;
-    color: var(--Violet);
+    color: var(--Violet) !important;
 }
 
 @media (max-width: 700px){
